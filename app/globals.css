@@ -1,0 +1,221 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  /* Updated color tokens to match CoDiv logo purple theme */
+  --background: oklch(0.12 0.02 264); /* Dark Slate #1e1e2f */
+  --foreground: oklch(1 0 0); /* White */
+  --card: oklch(0.16 0.02 264); /* Dark Gray #2a2a36 */
+  --card-foreground: oklch(1 0 0); /* White */
+  --popover: oklch(0.16 0.02 264); /* Dark Gray */
+  --popover-foreground: oklch(1 0 0); /* White */
+  /* Updated primary color to match CoDiv logo purple */
+  --primary: oklch(0.65 0.25 280); /* Rich Purple from logo */
+  --primary-foreground: oklch(1 0 0); /* White */
+  --secondary: oklch(0.35 0.02 264); /* Medium Gray #4b5563 */
+  --secondary-foreground: oklch(1 0 0); /* White */
+  --muted: oklch(0.16 0.02 264); /* Dark Gray */
+  --muted-foreground: oklch(0.85 0 0); /* Light Gray */
+  /* Updated accent color to purple theme */
+  --accent: oklch(0.65 0.25 280); /* Rich Purple */
+  --accent-foreground: oklch(1 0 0); /* White */
+  --destructive: oklch(0.55 0.22 25); /* Red */
+  --destructive-foreground: oklch(1 0 0); /* White */
+  --border: oklch(0.35 0.02 264); /* Medium Gray */
+  --input: oklch(0.16 0.02 264); /* Dark Gray */
+  /* Updated ring color to purple theme */
+  --ring: oklch(0.65 0.25 280); /* Rich Purple */
+  /* Updated gradient colors to purple shades matching logo */
+  --purple-start: oklch(0.7 0.28 285); /* Bright Purple */
+  --purple-mid: oklch(0.65 0.25 280); /* Rich Purple from logo */
+  --purple-end: oklch(0.45 0.2 275); /* Dark Purple/Navy */
+  /* Updated chart colors to purple theme */
+  --chart-1: oklch(0.65 0.25 280); /* Rich Purple */
+  --chart-2: oklch(0.65 0.18 35); /* Orange */
+  --chart-3: oklch(0.62 0.2 25); /* Bright Orange */
+  --chart-4: oklch(0.55 0.22 25); /* Red */
+  --chart-5: oklch(0.6 0.16 45); /* Amber */
+  --radius: 0.5rem;
+  --sidebar: oklch(0.16 0.02 264); /* Dark Gray */
+  --sidebar-foreground: oklch(1 0 0); /* White */
+  --sidebar-primary: oklch(0.35 0.02 264); /* Medium Gray */
+  --sidebar-primary-foreground: oklch(1 0 0); /* White */
+  /* Updated sidebar accent to purple theme */
+  --sidebar-accent: oklch(0.65 0.25 280); /* Rich Purple */
+  --sidebar-accent-foreground: oklch(1 0 0); /* White */
+  --sidebar-border: oklch(0.35 0.02 264); /* Medium Gray */
+  /* Updated sidebar ring to purple theme */
+  --sidebar-ring: oklch(0.65 0.25 280); /* Rich Purple */
+}
+
+.dark {
+  /* Dark mode uses same tokens since we're designing for dark theme */
+  --background: oklch(0.12 0.02 264);
+  --foreground: oklch(1 0 0);
+  --card: oklch(0.16 0.02 264);
+  --card-foreground: oklch(1 0 0);
+  --popover: oklch(0.16 0.02 264);
+  --popover-foreground: oklch(1 0 0);
+  /* Updated dark mode primary color to purple */
+  --primary: oklch(0.65 0.25 280);
+  --primary-foreground: oklch(1 0 0);
+  --secondary: oklch(0.35 0.02 264);
+  --secondary-foreground: oklch(1 0 0);
+  --muted: oklch(0.16 0.02 264);
+  --muted-foreground: oklch(0.85 0 0);
+  /* Updated dark mode accent color to purple */
+  --accent: oklch(0.65 0.25 280);
+  --accent-foreground: oklch(1 0 0);
+  --destructive: oklch(0.55 0.22 25);
+  --destructive-foreground: oklch(1 0 0);
+  --border: oklch(0.35 0.02 264);
+  --input: oklch(0.16 0.02 264);
+  /* Updated dark mode ring color to purple */
+  --ring: oklch(0.65 0.25 280);
+  /* Updated dark mode gradient colors to purple shades */
+  --purple-start: oklch(0.7 0.28 285);
+  --purple-mid: oklch(0.65 0.25 280);
+  --purple-end: oklch(0.45 0.2 275);
+  /* Updated dark mode chart colors */
+  --chart-1: oklch(0.65 0.25 280);
+  --chart-2: oklch(0.65 0.18 35);
+  --chart-3: oklch(0.62 0.2 25);
+  --chart-4: oklch(0.55 0.22 25);
+  --chart-5: oklch(0.6 0.16 45);
+  --sidebar: oklch(0.16 0.02 264);
+  --sidebar-foreground: oklch(1 0 0);
+  --sidebar-primary: oklch(0.35 0.02 264);
+  --sidebar-primary-foreground: oklch(1 0 0);
+  /* Updated dark mode sidebar accent to purple */
+  --sidebar-accent: oklch(0.65 0.25 280);
+  --sidebar-accent-foreground: oklch(1 0 0);
+  --sidebar-border: oklch(0.35 0.02 264);
+  /* Updated dark mode sidebar ring to purple */
+  --sidebar-ring: oklch(0.65 0.25 280);
+}
+
+@theme inline {
+  /* Updated to use Inter font instead of Geist */
+  --font-sans: var(--font-inter);
+  --font-mono: var(--font-geist-mono);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  /* Updated theme colors to purple gradient */
+  --color-purple-start: var(--purple-start);
+  --color-purple-mid: var(--purple-mid);
+  --color-purple-end: var(--purple-end);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  /* Add smooth scroll behavior to html element */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+
+  /* Enhanced animations with more dynamic effects */
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  .animate-float-delayed {
+    animation: float 8s ease-in-out infinite 2s;
+  }
+
+  @keyframes float {
+    0%,
+    100% {
+      transform: translateY(0px) rotate(0deg);
+    }
+    50% {
+      transform: translateY(-10px) rotate(180deg);
+    }
+  }
+
+  .animate-twinkle {
+    animation: twinkle 2s ease-in-out infinite;
+  }
+
+  @keyframes twinkle {
+    0%,
+    100% {
+      opacity: 0.2;
+      transform: scale(1);
+    }
+    50% {
+      opacity: 1;
+      transform: scale(1.2);
+    }
+  }
+
+  /* Updated gradient utility class to purple theme */
+  .text-purple-gradient {
+    background: linear-gradient(135deg, var(--purple-start), var(--purple-mid), var(--purple-end));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  /* Updated shining gradient to purple theme with animation */
+  .text-purple-shine {
+    background: linear-gradient(135deg, var(--purple-start) 0%, var(--purple-mid) 50%, var(--purple-end) 100%);
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: shine 3s ease-in-out infinite;
+  }
+
+  @keyframes shine {
+    0%,
+    100% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+  }
+}
