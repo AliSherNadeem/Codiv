@@ -4,7 +4,6 @@ import { Inter } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import { Suspense } from "react"
 import "./globals.css"
-
 const inter = Inter({
   subsets: ["latin"],
   display: "swap",
@@ -13,10 +12,13 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: "CoDiv AI - Transform Your Coding Experience",
+  title: "Codiv - Transform Your Coding Experience",
   description:
     "AI-powered code editor with advanced features. Create, modify, and build apps with single prompts. Import from GitHub, live preview, and more.",
-  generator: "v0.app",
+  generator: "app.codiv.dev",
+    icons: {
+    icon: "/codiv-favicon.ico", // put your favicon in /public folder
+  },
 }
 
 export default function RootLayout({
@@ -26,6 +28,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark">
+     
       <body className={`font-sans ${inter.variable} antialiased`}>
         <Suspense fallback={null}>{children}</Suspense>
         <Analytics />

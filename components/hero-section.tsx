@@ -32,7 +32,7 @@ export function HeroSection() {
             transition={{ duration: 0.8, delay: 0.3 }}
             className="text-lg md:text-2xl text-muted-foreground max-w-3xl mx-auto text-pretty"
           >
-            Create, modify, and build applications with single prompts. CoDiv AI brings the future of coding to your
+            Create, modify, and build applications with single prompts. Codiv brings the future of coding to your
             fingertips with advanced AI capabilities.
           </motion.p>
 
@@ -56,6 +56,7 @@ export function HeroSection() {
           >
             <Button
               size="lg"
+              onClick={() => window.open("https://app.codiv.dev/", "_blank")}
               className="group bg-gradient-to-r from-indigo-500 to-indigo-700 hover:from-indigo-600 hover:to-indigo-800 text-white border-0 shadow-lg shadow-indigo-500/20 hover:shadow-indigo-500/30 transition-all duration-300 cursor-pointer"
             >
               Get Started Free
@@ -78,7 +79,7 @@ export function HeroSection() {
           >
             <img
               src="/modern-dark-code-editor-interface-with-ai-features.png"
-              alt="CoDiv AI Interface"
+              alt="Codiv Interface"
               className="mx-auto rounded-lg shadow-2xl border border-border max-w-lg lg:max-w-2xl h-auto"
             />
           </motion.div> */}

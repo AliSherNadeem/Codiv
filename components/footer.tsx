@@ -20,7 +20,7 @@ export function Footer() {
           >
             <div className="flex items-center space-x-2 mb-4">
               <Code2 className="h-8 w-8 text-primary" />
-              <span className="text-xl font-bold text-card-foreground">CoDiv AI</span>
+              <span className="text-xl font-bold text-card-foreground">Codiv</span>
             </div>
             <p className="text-muted-foreground mb-6 max-w-md leading-relaxed">
               Transform your coding experience with AI-powered development tools. Build faster, smarter, and more
@@ -123,7 +123,7 @@ export function Footer() {
           </div>
 
           <div className="flex items-center space-x-4">
-            <span className="text-muted-foreground text-sm">© 2024 CoDiv AI. All rights reserved.</span>
+            <span className="text-muted-foreground text-sm">© 2024 Codiv. All rights reserved.</span>
             <div className="flex space-x-2">
               <Button variant="ghost" size="sm">
                 <Github className="h-4 w-4" />

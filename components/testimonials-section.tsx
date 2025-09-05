@@ -9,7 +9,7 @@ const testimonials = [
     name: "Sarah Chen",
     role: "Senior Developer at TechCorp",
     content:
-      "CoDiv AI has completely transformed how I approach coding. What used to take hours now takes minutes. The AI understands exactly what I need.",
+      "Codiv has completely transformed how I approach coding. What used to take hours now takes minutes. The AI understands exactly what I need.",
     rating: 5,
     avatar: "/professional-woman-developer-avatar.png",
   },
@@ -25,7 +25,7 @@ const testimonials = [
     name: "Emily Johnson",
     role: "CTO at StartupXYZ",
     content:
-      "Our team productivity has increased by 300% since adopting CoDiv AI. The discuss and build mode is incredibly intuitive.",
+      "Our team productivity has increased by 300% since adopting Codiv. The discuss and build mode is incredibly intuitive.",
     rating: 5,
     avatar: "/professional-woman-cto-avatar.png",
   },
@@ -33,7 +33,7 @@ const testimonials = [
     name: "David Kim",
     role: "Software Engineer at BigTech",
     content:
-      "I was skeptical about AI coding tools, but CoDiv AI proved me wrong. It understands context better than any tool I've used.",
+      "I was skeptical about AI coding tools, but Codiv proved me wrong. It understands context better than any tool I've used.",
     rating: 5,
     avatar: "/professional-man-engineer-avatar.png",
   },
@@ -49,7 +49,7 @@ const testimonials = [
     name: "Alex Thompson",
     role: "Indie Developer",
     content:
-      "As a solo developer, CoDiv AI is like having a whole team. The integrated terminal and local sync keep everything organized.",
+      "As a solo developer, Codiv is like having a whole team. The integrated terminal and local sync keep everything organized.",
     rating: 5,
     avatar: "/professional-indie-developer-avatar.png",
   },
@@ -74,7 +74,7 @@ export function TestimonialsSection() {
             Worldwide
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto text-pretty">
-            See what developers are saying about their experience with CoDiv AI
+            See what developers are saying about their experience with Codiv
           </p>
         </motion.div>
 

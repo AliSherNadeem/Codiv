@@ -39,7 +39,7 @@ export function HowItWorksSection() {
         >
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-balance">
             How{" "}
-            <span className="bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent">CoDiv AI</span>{" "}
+            <span className="bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent">Codiv</span>{" "}
             Works
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto text-pretty">
