@@ -5,7 +5,8 @@ import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import { Menu, X, Code2 } from "lucide-react"
 import Image from "next/image"
-import codivlogo from "@/public/codiv-logo.png"
+// import codivlogo from "@/public/codiv-logo.png"
+import codivwhitelogo from "@/public/codiv-white-logo.png"
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
@@ -45,7 +46,7 @@ export function Navbar() {
             <Code2 className="h-8 w-8 text-primary" />
             {/* <span className="text-xl font-bold text-foreground">CoDiv AI</span> */}
             <Image
-              src={codivlogo}
+              src={codivwhitelogo}
               width={100}
               height={100}
               alt="Codiv Logo"
