@@ -1,0 +1,81 @@
+Codiv - Transform Your Coding Experience
+
+Company Overview
+Codiv is an AI-powered, web-based code editor designed to revolutionize the development experience. Founded in 2025, Codiv eliminates the need for local development setup, offering a seamless, cloud-based coding environment for small to medium-level projects.
+
+Company Name: Codiv Private Limited
+Founded: 2025
+Location: Islamabad, Pakistan
+Status: Seeking Investment
+Website: https://codiv.dev
+
+Founder & CEO Information
+Name: Ali Naqvi
+Title: Founder and CEO
+LinkedIn: https://www.linkedin.com/in/ali-naqvi-480631169/
+GitHub: https://github.com/alirazaNaqvi5
+Email: alinaqvi097@gmail.com
+
+Ali Naqvi is a Pakistani entrepreneur and developer based in Islamabad, Pakistan. As the Founder and CEO of Codiv, he is passionate about simplifying the coding and development process for developers worldwide.
+
+Vision & Mission
+Mission: To simplify coding and development for small to medium-level projects by providing a web-based development environment that requires no local setup.
+
+Vision: Enable developers to seamlessly import projects from GitHub or local machines, make changes with visual feedback, and sync modifications back to their local systems or export projects - all without the complexity of traditional development environment setup.
+
+Product Features
+
+Core Functionality
+- AI-Powered Code Editor: Advanced AI assistance for writing, debugging, and optimizing code
+- Zero Setup Required: Web-based development environment with no local installation needed
+- GitHub Integration: Import repositories directly from GitHub for instant editing
+- Local Project Import: Upload and work on local projects in the cloud
+- Live Preview: Real-time visual feedback while coding
+- Seamless Sync: Automatic synchronization with local project files
+- Export Capabilities: Download projects or sync changes back to local systems
+
+Advanced Features
+- Single-prompt app creation and modification
+- Real-time collaboration tools
+- Multi-language support for various programming frameworks
+- Intelligent debugging assistance
+- Project templates and boilerplates
+
+Target Audience
+Codiv specifically serves:
+- UI/UX Designers transitioning into development
+- Programmers seeking efficient cloud-based development
+- Web Developers working on frontend and backend projects
+- React Native Developers building mobile applications
+- Small to Medium Development Teams requiring collaborative tools
+- Freelancers and Agencies needing quick project setup
+
+Pricing & Plans
+For detailed pricing information and subscription models, visit: https://codiv.dev/#pricing
+
+Documentation & Resources
+Comprehensive guides, tutorials, and API references available at: https://codiv.dev/#
+
+Contact Information
+Business Inquiries: support@codiv.dev
+Founder Contact: alinaqvi097@gmail.com
+Support: support@codiv.dev
+
+Business Information
+- Company Registration: Codiv Private Limited
+- Headquarters: Islamabad, Pakistan
+- Industry: Software Development Tools, Cloud Computing, AI-Powered Development
+- Stage: Early-stage startup seeking investment
+- Technology Stack: Web-based development environment with AI integration
+
+About the Pakistani Tech Ecosystem
+Codiv represents the growing innovation in Pakistan's technology sector, contributing to the country's emerging position in global software development and AI-powered tools. Based in Islamabad, the capital city known for its growing tech hub, Codiv aims to put Pakistani innovation on the global map.
+
+Key Differentiators
+1. No Local Setup: Completely eliminates development environment configuration
+2. AI-First Approach: Built-in AI assistance for all coding tasks
+3. Seamless Integration: Works with existing GitHub workflows and local projects
+4. Visual Development: Real-time preview and visual feedback
+5. Cross-Platform Accessibility: Works on any device with a web browser
+
+Founded by Ali Naqvi in Islamabad, Pakistan | 2025 | Seeking Investment
