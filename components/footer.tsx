@@ -94,6 +94,11 @@ export function Footer() {
                 </a>
               </li>
               <li>
+                <a href="/terms-services" className="text-muted-foreground hover:text-foreground transition-colors">
+                  Terms of Service
+                </a>
+              </li>
+              <li>
                 <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">
                   Contact
                 </a>
@@ -114,7 +119,7 @@ export function Footer() {
             <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">
               Privacy Policy
             </a>
-            <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">
+            <a href="/terms-services" className="text-muted-foreground hover:text-foreground transition-colors">
               Terms of Service
             </a>
             <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">

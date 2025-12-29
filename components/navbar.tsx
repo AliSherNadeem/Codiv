@@ -83,6 +83,12 @@ export function Navbar() {
             >
               Testimonials
             </button>
+            <button
+              onClick={() => window.location.href = "/terms-services"}
+              className="text-muted-foreground hover:text-foreground transition-colors cursor-pointer"
+            >
+              Terms
+            </button>
             <Button
               variant="outline"
               onClick={() => window.open("https://app.codiv.dev/", "_blank")}
@@ -147,6 +153,12 @@ export function Navbar() {
                 className="text-muted-foreground hover:text-foreground transition-colors text-left cursor-pointer"
               >
                 Testimonials
+              </button>
+              <button
+                onClick={() => window.location.href = "/terms-services"}
+                className="text-muted-foreground hover:text-foreground transition-colors text-left cursor-pointer"
+              >
+                Terms
               </button>
               <div className="flex flex-col space-y-2 pt-4 border-t border-border">
                 <Button
