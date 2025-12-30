@@ -130,18 +130,14 @@ export function Footer() {
           <div className="flex items-center space-x-4">
             <span className="text-muted-foreground text-sm">© 2024 Codiv. All rights reserved.</span>
             <div className="flex space-x-2">
-              <Button variant="ghost" size="sm">
-                <Github className="h-4 w-4" />
-              </Button>
-              <Button variant="ghost" size="sm">
+             
+              <Button variant="ghost" size="sm"  onClick={() => window.open("https://x.com/codiv_dev", "_blank")}>
                 <Twitter className="h-4 w-4" />
               </Button>
-              <Button variant="ghost" size="sm">
+              <Button variant="ghost" size="sm"   onClick={() => window.open("https://www.linkedin.com/company/codiv-dev", "_blank")}>
                 <Linkedin className="h-4 w-4" />
               </Button>
-              <Button variant="ghost" size="sm">
-                <Mail className="h-4 w-4" />
-              </Button>
+             
             </div>
           </div>
         </motion.div>
