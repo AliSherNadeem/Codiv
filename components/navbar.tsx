@@ -71,24 +71,24 @@ export function Navbar() {
             >
               How It Works
             </button>
-            {/* <button
+            <button
               onClick={() => scrollToSection("pricing")}
               className="text-muted-foreground hover:text-foreground transition-colors cursor-pointer"
             >
               Pricing
-            </button> */}
+            </button>
             <button
               onClick={() => scrollToSection("testimonials")}
               className="text-muted-foreground hover:text-foreground transition-colors cursor-pointer"
             >
               Testimonials
             </button>
-            <button
+            {/* <button
               onClick={() => window.location.href = "/terms-services"}
               className="text-muted-foreground hover:text-foreground transition-colors cursor-pointer"
             >
               Terms
-            </button>
+            </button> */}
             <Button
               variant="outline"
               onClick={() => window.open("https://app.codiv.dev/", "_blank")}
